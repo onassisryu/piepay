@@ -55,27 +55,27 @@
 # :iphone: 화면 소개
 ### 회원가입
 
-<img src="./README.assets/화면소개/회원가입.gif" alt="회원가입" style="zoom:40%;" />
+<img src="./README.assets/화면소개/회원가입.gif" width="200">
 
 ### 모임만들기
 
-<img src="./README.assets/화면소개/모임만들기.gif" alt="모임만들기" style="zoom:40%;" />
+<img src="./README.assets/화면소개/모임만들기.gif" width="200">
 
 ### 모임입장
 
-<img src="./README.assets/화면소개/모임입장.gif" alt="모임입장" style="zoom:40%;" />
+<img src="./README.assets/화면소개/모임입장.gif" width="200">
 
 ### 결제
 
-<img src="./README.assets/화면소개/결제.gif" alt="결제" style="zoom:40%;" />
+<img src="./README.assets/화면소개/결제.gif" width="300">
 
 ### 모임상세
 
-<img src="./README.assets/화면소개/모임상세.gif" alt="모임상세" style="zoom:40%;" />
+<img src="./README.assets/화면소개/모임상세.gif" width="200">
 
 ### 정산
 
-<img src="./README.assets/화면소개/정산.gif" alt="정산" style="zoom:40%;" />
+<img src="./README.assets/화면소개/정산.gif" width="200">
 
 [Top](#목차)
 <br/><br/>
