@@ -4,13 +4,11 @@ import {ReactNode} from "react";
 import {dehydrate, HydrationBoundary, QueryClient} from "@tanstack/react-query";
 import {getAccount} from "@/api/account";
 import NotificationReceive from "@/app/(post-verification)/component/NotificationReceive";
-import * as styles from "@/styles/main/main.css"
+import * as styles from "@/styles/main/mainLayout.css"
 import {cookies} from "next/headers";
 import {getMeetList} from "@/api/meet/meetList";
 import { getNotification } from '@/api/notification';
 import { getMe } from '@/api/member';
-import { EventSourcePolyfill } from 'event-source-polyfill';
-import { useSSE } from '@/store/useSSE';
 import { getCurrPayment } from '@/api/payment';
 
 export const metadata: Metadata = {
@@ -34,7 +32,7 @@ export default async function PostVerificationLayout({children}: Props) {
 
 
     return (
-        <div className="h-screen">
+        <>
                 <Header/>
                 <HydrationBoundary state={dehydratedState}>
                     <NotificationReceive/>
@@ -43,6 +41,6 @@ export default async function PostVerificationLayout({children}: Props) {
                         {children}
                     </div>
                 </HydrationBoundary>
-        </div>
+        </>
     );
 }
